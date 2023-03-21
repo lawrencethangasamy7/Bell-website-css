@@ -1,0 +1,899 @@
+*{
+    padding:0 ;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#first{
+    background-image:linear-gradient(#290e0fa1,#290e0fa1),url('img/cover.jpg');
+    height: 117vh;
+}
+.container{
+    width: 100%;
+}
+.row {
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    height: 100vh;
+}
+.logo{
+ 
+    text-align: center;
+  padding-top: 30px;
+    color: white;
+}
+.logo p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.pic1{
+    padding: 10px;
+}
+.logo h1{
+    font-size: 40px;
+    padding-top: 30px;
+}
+.logo a{
+    padding: 14px 45px;
+    font-size: 20px;
+    background-color: #199EB8;
+    color: white;
+    text-decoration: none;
+    border:none;
+   border-radius: 25px;
+  
+
+}
+.logo a:hover{
+    background-color: #e04f00;
+    color: white;
+}
+#sectionnav{
+    background-color: #199EB8;
+}
+.containor1{
+    width: 80%;
+}
+
+.flex{
+    padding-top:35px;
+}
+ 
+
+    .totel{
+        display:flex;
+        align-items:center;
+    
+       justify-content:space-around;
+       padding:15px 0;
+    }
+    .nav a:hover{
+        color:white;
+    }
+    .nav a{
+        color: #ebe3e3cc;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration:none;
+        padding:20px;
+    }
+
+    .nav{
+        display:inline-block;
+    }
+    
+    .nav i{
+        color: #ebe3e3cc;
+        padding:3px;
+        font-size:20px;
+    }
+    .nav i:hover{
+        color: white;
+    }
+   
+    #Template{
+        margin: 70px 0;
+    }
+    .container2{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .temcontant{
+        text-align: center;
+    }
+    .temcontant h1{
+        padding: 30px;
+    }
+    .temcontant p{
+        line-height: 2;
+        font-size: 17px;
+        color: #333;
+    }
+    .temrow{
+        display: flex;
+    }
+
+    .temcol{
+        width: 25%;
+        display: flex;
+        padding-top: 60px;
+        justify-content: center;
+        align-items: center;
+    }
+    .temcard{
+        position: relative;
+    }
+    .temcard h5{
+        font-size: 15px;
+    }
+    .temsat{
+        border-radius: 50%;
+        border: 5px solid #199EB8;;
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+        color: #666;
+        width: 150px;
+        height: 150px;
+        text-align: center;
+    }
+    .temred{
+        border-radius: 50%;
+        border: 5px solid #e04f00;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #e04f00;
+        color: white;
+        position:absolute;
+        bottom: 94px;
+        left: 107px;
+        width: 60px;
+        height:60px;
+    }
+    
+    #wel{
+        background-image: url('img/para-bg.jpg');
+        height: 70vh;
+        overflow: hidden;
+    }
+    .welcontainer{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .welrow{
+        padding-top: 20px;
+    }
+    .welimg{
+        text-align: center;
+        margin-top: 120px;
+        }
+    .welcol{
+        text-align: center;
+    }
+    .welcol h1{
+        color: white;
+        
+    }
+    .welcol h4{
+        color: white;
+
+    }
+    .welcol{
+        padding-top: 40px;
+    }
+    .welcar h4{
+        padding-top: 10px;
+    }
+    .featcontainer{
+        width: 85%;
+        margin: 0 auto;
+        
+    }
+    .featcontant{
+        line-height: 5;
+        text-align: center;
+
+    }
+    .featcontant h1{
+        font-size: 35px;
+        color: #199EB8;
+    }
+    .featrow{
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .featcol{
+        width: 33.3%;
+    }
+    .featcard{
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .featcard i{
+        color: white;
+        border-radius: 50%;
+        background-color: #199EB8;
+        font-size: 20px;
+        text-align: center;
+        padding:15px;
+        width: 50px;
+        height: 50px;
+    }
+    .featcard h3{
+       
+        padding: 20px 0px;
+        font-size: 25px;
+        color: #199EB8;
+    }
+    .featcard p{
+
+        font-size: 16px;
+        color: #999;
+    }
+   
+    #call{
+        margin:80px 0;
+        background-color: #199EB8;
+    }
+    .callcontainer{
+        width: 85%;
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+    .callrow{
+        display: flex;
+    }
+    .callcol{
+        width:80%;
+    }
+    .cllcol1{
+        width:20%;
+        
+    }
+    .callcard{
+        padding: 15px;
+    }
+    .callcard h1{
+        color: white;
+        font-size: 30px;
+        line-height: 2;
+    }
+    .callcard p{
+
+        font-size: 18px;
+        color: #ebe3e3cc;
+    }
+    .callcard1{
+        padding-top: 60px;
+        padding-left: 20px;
+    }
+    .callcol1 a{
+        text-decoration: none;
+        font-size: 20px;
+        padding:15px 35px;
+        color: white;
+        border: 3px solid white;
+        border-radius: 35px;
+    }
+    .callcol1 a:hover{
+        background-color: white;
+        color: #199EB8;
+    }
+  
+    #port{
+        margin: 30px 0;
+    }
+    .portcontainer{
+        width: 100%;
+    }
+    .portcotent{
+        text-align: center;
+    }
+    .portcotent p{
+        line-height: 5;
+        font-size: 18px;
+        color: #999;
+    }
+    .portcotent h1{
+        font-size: 35px;
+        color: #199EB8;
+    }
+    .portrow{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .portcol{
+        width: 25%;
+        
+    }
+    .portcart img{
+        width: 100%;
+    }
+    .portcart{
+        position: relative;
+    }
+    .portover{
+            text-align: center;
+            position: absolute;
+            padding: 44px;
+            top: 0px;
+            font-size: 20px;
+            color: white;
+            opacity: 0;
+    }
+    .portover:hover{
+        opacity: 1;
+        width: 100%;
+        background-color:#290e0fa1;
+
+    }
+    
+    #meet{
+        margin: 60px 0;
+    }
+    .meetcontainer{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .meetcontant{
+        text-align: center;
+        color: #199EB8;
+        line-height: 5;
+    }
+    .meetrow{
+        display: flex;
+    }
+    .meetcol{
+        width: 25%;
+    }
+    .meetimg{
+        position: relative;
+    } 
+    
+    .meetcard img{
+        width: 100%;
+        vertical-align: middle;
+    }
+    .meeticon{
+        text-align: center;
+        padding:20px ;
+        position:absolute;
+        left:0;
+        right:0;
+        bottom: 0;
+       height:100%;
+        background-color:#290e0fa1;
+        opacity: 0;
+    }
+    .meetcol:hover .meeticon{
+        opacity: 1;
+    }
+    .meetcol:hover .meetsergo{
+        background-color:#199EB8;
+        padding: 20px;
+        color: white;
+    }
+    .meetcol:hover .meetsergo h3{
+        color:white;
+    }
+    .meeticon p{
+        font-size: 15px;
+        color: #999;
+        padding-top: 30px;
+    }
+    
+    .meeticon h2{
+        color: white;
+        padding-top: 15px;
+        line-height: 2;
+    }
+    .meeticon i{
+        color:white;
+        padding: 10px;
+    }
+    .meetsergo h3{
+        color: #199EB8;
+    }
+    .meetsergo{
+        padding: 20px;
+    }
+   
+    #con{
+        background: #f7f7f7;
+        padding: 60px 0;
+    }
+    .concontainer{
+        width:80%;
+        margin: 0 auto;
+    }
+    .concontant{
+        text-align: center;
+        line-height: 3;
+        color: #199EB8;
+    }
+    .concontant h1{
+        font-weight: 300;
+    }
+    .conrow1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    
+    .concard{
+        display: flex;
+        padding:10px;
+        justify-content:center;
+
+    }
+    .conicon{
+        display: flex;
+        justify-content: center;
+         align-items: center;
+       font-size: 30px;
+       color: #199EB8;
+    }
+    .conpara{
+        padding-left: 20px;
+        line-height: 1;
+        color:#333;
+    }
+    .conpara p{
+        font-weight: 100;
+        margin: 5px;
+    }
+    .concard1 input{
+        margin: 10px 0px;
+        padding-left: 10px;
+        height: 35px;
+        width: 100%;
+        background-color: white;
+        border: 1px solid #199EB8;
+    }
+    .concard1 textarea{
+        background-color: white;
+        border: 1px solid #199EB8;
+        color:#199EB8;
+        width: 100%;
+        padding-left: 10px;
+    }
+    .conbot{
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .conbot a{
+        text-decoration: none;
+        font-size: 20px;
+        padding: 10px 25px;
+        color: white;
+        border: none;
+        background-color: #199EB8;
+        display: inline-block;
+    }
+    .conpara p{
+        margin: 5px;
+    }
+    .conbot a:hover{
+        background-color:#44cae4;
+        color:white;
+    }
+
+
+    #foot{
+        background-color:#212529;
+        padding: 25px 0;
+    }
+    .footcontainer{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .footrow{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .footcol{
+        width: 40%;
+    }
+    .footcard{
+        font-size: 15px;
+        color: white;
+    }
+    .rr{
+        padding-bottom: 10px;
+    }
+    .law{
+        color: #199EB8;
+    }
+    .footcol1{
+        width:60%;
+    }
+    .footcard1 a{
+        text-decoration: none;
+        color: white;
+        padding: 18px;
+        line-height: 3;
+    }
+    .footcard1 a:hover{
+        color: #199EB8;
+    }
+ 
+ 
+    @media(min-width:320px){
+        .containor1{
+          width:100%;
+          margin: auto;
+        } 
+        .pic1{
+         max-width:100%;
+        }
+        nav a{
+          display: none;
+        }
+        nav{
+          width: 100%;
+        }
+        .container2{
+            width:85%;
+            margin: auto;
+        }
+        .temrow{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .temcol{
+            width: 100%;
+        }
+        .temcontant h1 {
+            padding: 16px;
+        }
+        
+    
+       .featcontainer{
+        width:100%;
+        margin: auto;
+       }
+       .featrow{
+        display: flex;
+        flex-wrap: wrap;
+       }
+       .featcol{
+        width:100%;
+       }
+       .welcar h1{
+        font-size: 16px;
+       }
+       .callcontainer{
+        width:100%;
+        margin: auto;
+       } 
+       .callrow{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+   
+       }
+       .callcol{
+        width:100%;
+       }
+       .callcol1{
+        width:100%;
+       }
+       .callcard1{
+        padding-bottom: 50px;
+       }
+       .portcontainer{
+        width:100%;
+        margin: auto;
+    }
+    .portrow{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .portcol{
+        width:100%;
+    }
+    .portcotent p {
+        line-height: 2;
+        font-size: 18px;
+    }
+    .meetcontainer{
+        width:80%;
+        margin: auto;
+    }
+    .meetrow{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .meetcol{
+        width:100%;
+    }
+    
+    .concontainer{
+        width:100%;
+        margin: auto;
+    }
+    .conrow1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .concol{
+        width:100%;
+    }
+    .conbot a{
+        font-size: 11px;
+    }
+    .footcontainer{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .footrow{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footcol{
+        width: 40%;
+    }
+    .footcard{
+        font-size: 5px;
+        color: white;
+}
+
+      }
+      @media(min-width:690px){
+          .containor1{
+            width:80%;
+            margin: auto;
+          } 
+          .pic1{
+           max-width:100%;
+          }
+          nav a{
+            display: none;
+          }
+          nav{
+            width: 100%;
+          }
+          
+        .featcontainer{
+            width:100%;
+            margin: auto;
+           }
+           .featrow{
+            display: flex;
+            flex-wrap: wrap;
+           }
+           .featcol{
+            width:100%;
+           }
+           
+     .callcontainer{
+        width:100%;
+        margin: auto;
+       } 
+       .callrow{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+  
+       }
+       .callcol{
+        width:100%;
+       }
+       .callcol1{
+        width:100%;
+       }
+       .callcard1{
+        padding-bottom: 50px;
+       }
+       
+    .portcontainer{
+        width:100%;
+        margin: auto;
+    }
+    .portrow{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .portcol{
+        width:50%;
+    }
+    .meetcontainer{
+        width:80%;
+        margin: auto;
+    }
+    .meetrow{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .meetcol{
+        width:50%;
+    }
+    .concontainer{
+        width:100%;
+        margin: auto;
+    }
+    .conrow1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .concol{
+        width: 40%;
+    }
+    .concol1{
+      width: 50%;  
+    }
+     
+.footcontainer{
+    width: 80%;
+    margin: 0 auto;
+}
+.footrow{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footcol{
+    width: 40%;
+}
+.footcard{
+    font-size: 5px;
+    color: white;
+}
+        }
+      @media(min-width:1020px){
+          .container1{
+              width:80%;
+              margin: auto;
+          }
+         .nav a{
+          display: inline-block;
+         }
+         .nav{
+          width:100%;
+         
+         }
+         .totel{
+          display:flex;
+          align-items:center;
+         
+         justify-content:space-around;
+         padding:15px 0;
+      }
+      .container2{
+        width:85%;
+        margin: auto;
+    }
+    .temrow{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .temcol{
+        width:25%;
+    }
+    .featcontainer{
+        width:100%;
+        margin: auto;
+       }
+       .featrow{
+        display: flex;
+        flex-wrap: wrap;
+       }
+       .featcol{
+        width:33.3%;
+       }
+    
+       .callcontainer{
+        width:100%;
+        margin: auto;
+       } 
+       .callrow{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+  
+       }
+       .callcol{
+        width:100%;
+       }
+      
+       .callcard1{
+        padding-bottom: 50px;
+       
+   }
+   
+   .portcontainer{
+    width:100%;
+    margin: auto;
+}
+.portrow{
+    display: flex;
+    flex-wrap: wrap;
+}
+.portcol{
+    width:25%;
+}
+
+.meetcontainer{
+    width:80%;
+    margin: auto;
+}
+.meetrow{
+    display: flex;
+    flex-wrap: wrap;
+}
+.meetcol{
+    width:25%;
+}
+.concontainer{
+    width:80%;
+    margin: auto;
+}
+.conrow1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.concol{
+    width:40%;
+}
+.concol1{
+  width: 50%;  
+}
+
+.footcontainer{
+    width: 80%;
+    margin: 0 auto;
+    }
+    .footrow{
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .footcol{
+    width: 40%;
+    }
+    .footcard{
+    font-size: 12px;
+    color: white;
+    }.footcontainer{
+        width: 80%;
+        margin: 0 auto;
+        }
+        .footrow{
+        display: flex;
+        flex-wrap: wrap;
+        }
+        .footcol{
+        width: 40%;
+        }
+        .footcard{
+        font-size: 12px;
+        color: white;
+        }
+
+}   
+     
+
+
+
+
+
+
+  
+
+  
+
+
+ 
+
+
+  
+
+    
+
+    
+
+     
+     
+        
